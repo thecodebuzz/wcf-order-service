@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-order-service", "wcf-order-service\wcf-order-service.csproj", "{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1CC6E84-498F-4737-90D7-77E63E35640A}
+	EndGlobalSection
+EndGlobal
