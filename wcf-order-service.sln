@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-order-service", "wcf-order-service\wcf-order-service.csproj", "{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-netclient-order", "wcf-client-order\wcf-netclient-order.csproj", "{773E082B-7D6D-49B9-86A4-5EFB8F0FE462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "WcfService1\OrderService.csproj", "{9F0C711D-A63B-4D65-9156-BB62779558D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi-dotnetcoreclient", "Order-DotNetcore-Client\webapi-dotnetcoreclient.csproj", "{0CE59B9F-B57B-42A2-A6F1-97D4717BDFAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi-dotnetcore-client-svcutil", "webapi-dotnetcore-client-svcutil\webapi-dotnetcore-client-svcutil.csproj", "{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-dotnetcore-client-channelfactory", "webapi-dotnetcore-client-channelfactory\webapi-dotnetcore-client-channelfactory.csproj", "{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3744F900-DE8C-4704-BCF2-DF6A7DA2F352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773E082B-7D6D-49B9-86A4-5EFB8F0FE462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773E082B-7D6D-49B9-86A4-5EFB8F0FE462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773E082B-7D6D-49B9-86A4-5EFB8F0FE462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773E082B-7D6D-49B9-86A4-5EFB8F0FE462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0C711D-A63B-4D65-9156-BB62779558D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0C711D-A63B-4D65-9156-BB62779558D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0C711D-A63B-4D65-9156-BB62779558D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0C711D-A63B-4D65-9156-BB62779558D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE59B9F-B57B-42A2-A6F1-97D4717BDFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE59B9F-B57B-42A2-A6F1-97D4717BDFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE59B9F-B57B-42A2-A6F1-97D4717BDFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE59B9F-B57B-42A2-A6F1-97D4717BDFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
