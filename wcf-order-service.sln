@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi-dotnetcoreclient", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi-dotnetcore-client-svcutil", "webapi-dotnetcore-client-svcutil\webapi-dotnetcore-client-svcutil.csproj", "{5B8C431B-D5A4-4201-A968-EE4D9DFF5248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-dotnetcore-client-channelfactory", "webapi-dotnetcore-client-channelfactory\webapi-dotnetcore-client-channelfactory.csproj", "{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi-dotnetcore-client-channelfactory", "webapi-dotnetcore-client-channelfactory\webapi-dotnetcore-client-channelfactory.csproj", "{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-dotnetcoreclient-using-wsdl", "webapi-dotnetcoreclient-using-wsdl\webapi-dotnetcoreclient-using-wsdl.csproj", "{07627D1B-5049-4D1B-8A59-E7085FB0C1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D22A23C-D5EE-430C-B2D6-1D50581E7A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07627D1B-5049-4D1B-8A59-E7085FB0C1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07627D1B-5049-4D1B-8A59-E7085FB0C1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07627D1B-5049-4D1B-8A59-E7085FB0C1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07627D1B-5049-4D1B-8A59-E7085FB0C1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
